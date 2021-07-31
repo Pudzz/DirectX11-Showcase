@@ -6,6 +6,7 @@ Engine::Engine(HINSTANCE hInstance) : window(hInstance)
 	window.Open(800, 600);
 
 	// D3D11
+	dx11.Initialize(window);
 }
 
 Engine::~Engine()
@@ -31,7 +32,8 @@ void Engine::Run()
 		}
 		else
 		{
-
+			dx11.BeginScene(DirectX::XMFLOAT4(0.8, 0.3, 0, 1));
+			dx11.EndingScene();
 		}
 	}
 }
