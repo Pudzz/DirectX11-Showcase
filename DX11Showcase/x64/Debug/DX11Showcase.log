@@ -3,12 +3,6 @@ C:\Users\Pad\Documents\GitHub\DirectX11-Showcase\DX11Showcase\DX11.cpp(40,52): w
 C:\Users\Pad\Documents\GitHub\DirectX11-Showcase\DX11Showcase\DX11.cpp(41,54): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
 C:\Users\Pad\Documents\GitHub\DirectX11-Showcase\DX11Showcase\DX11.cpp(79,43): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
 C:\Users\Pad\Documents\GitHub\DirectX11-Showcase\DX11Showcase\DX11.cpp(80,45): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
-  Engine.cpp
-C:\Users\Pad\Documents\GitHub\DirectX11-Showcase\DX11Showcase\Engine.cpp(35,52): warning C4305: 'argument': truncation from 'double' to 'float'
   main.cpp
-  Window.cpp
-C:\Users\Pad\Documents\GitHub\DirectX11-Showcase\DX11Showcase\Window.cpp(39,27): warning C4838: conversion from 'size_t' to 'LONG' requires a narrowing conversion
-C:\Users\Pad\Documents\GitHub\DirectX11-Showcase\DX11Showcase\Window.cpp(39,41): warning C4267: 'initializing': conversion from 'size_t' to 'LONG', possible loss of data
-C:\Users\Pad\Documents\GitHub\DirectX11-Showcase\DX11Showcase\Window.cpp(39,34): warning C4838: conversion from 'size_t' to 'LONG' requires a narrowing conversion
   Generating Code...
   DX11Showcase.vcxproj -> C:\Users\Pad\Documents\GitHub\DirectX11-Showcase\DX11Showcase\x64\Debug\DX11Showcase.exe

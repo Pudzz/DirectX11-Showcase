@@ -2,12 +2,13 @@
 A showcase with all my work, both all the different techniques I learned and 3D models.
 
 ## Done
-- Window
+- Window, D3D11
+- Renderer
+- Scenehandler
+- VRAM-/ RAM usage, FPS
+- Console Logger for debug
 
 ## Not Done
-- D3D11
-- VRAM-/ RAM usage, FPS
-- Scenehandler
 - OBJ Loader
 - FBX Loader
 - Custom Format Loader
