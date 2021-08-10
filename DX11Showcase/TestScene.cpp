@@ -8,6 +8,8 @@
 TestScene::TestScene() : dx11(nullptr)
 {
 	m_startTime = timeGetTime();
+	m_count = 0;
+	m_fps = 0;
 }
 
 TestScene::~TestScene()
@@ -27,6 +29,9 @@ void TestScene::Initialize()
 
 void TestScene::InitializeObjects()
 {
+	mainCamera = new Camera();
+	mainCamera->SetPosition(0.0f, 0.0f, -10.0f);
+	//camera->GetInputs(input);
 }
 
 void TestScene::InitializeGUI()
@@ -47,6 +52,8 @@ void TestScene::Update(const float& deltaTime)
 	if (timeGetTime() >= (m_startTime + 1000))
 	{
 		std::cout << "FPS: " << m_count << std::endl;
+		std::cout << "VRam usage: " << std::to_string(VRamUsage()) << std::endl;
+		std::cout << "RAM Usage: " << std::to_string(RamUsage()) << std::endl;
 
 		m_fps = m_count;
 		m_count = 0;

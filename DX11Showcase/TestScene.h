@@ -27,6 +27,7 @@ public:
 private:
 	DX11* dx11;
 	Timer fpsTimer;
+	Camera* mainCamera;
 	int m_fps, m_count;
 	int m_startTime;
 };

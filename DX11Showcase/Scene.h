@@ -1,6 +1,7 @@
 #pragma once
 #include "DX11.h"
 #include "Timer.h"
+#include "Camera.h"
 
 class Scene
 {

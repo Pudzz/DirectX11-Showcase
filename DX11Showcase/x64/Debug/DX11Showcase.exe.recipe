@@ -5,7 +5,14 @@
       <FullPath>C:\Users\Pad\Documents\GitHub\DirectX11-Showcase\DX11Showcase\x64\Debug\DX11Showcase.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
-  <ContentFiles />
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>C:\Users\Pad\Documents\GitHub\DirectX11-Showcase\DX11Showcase\x64\Debug\PSDefault.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\Pad\Documents\GitHub\DirectX11-Showcase\DX11Showcase\x64\Debug\VSDefault.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
   <SatelliteDlls />
   <NonRecipeFileRefs />
 </Project>

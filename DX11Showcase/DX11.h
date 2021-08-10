@@ -56,3 +56,14 @@ private:
 	ID3D11BlendState* alpha_Enable;
 	ID3D11BlendState* alpha_Disable;
 };
+
+/* Template to release pointers */
+template<typename R>
+inline void ReleasePtr(R& ptr)
+{
+	if (ptr != nullptr)
+	{
+		ptr->Release();
+		ptr = nullptr;
+	}
+};

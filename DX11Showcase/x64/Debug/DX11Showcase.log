@@ -1,8 +1,1 @@
-﻿  DX11.cpp
-C:\Users\Pad\Documents\GitHub\DirectX11-Showcase\DX11Showcase\DX11.cpp(40,52): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
-C:\Users\Pad\Documents\GitHub\DirectX11-Showcase\DX11Showcase\DX11.cpp(41,54): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
-C:\Users\Pad\Documents\GitHub\DirectX11-Showcase\DX11Showcase\DX11.cpp(79,43): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
-C:\Users\Pad\Documents\GitHub\DirectX11-Showcase\DX11Showcase\DX11.cpp(80,45): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
-  main.cpp
-  Generating Code...
-  DX11Showcase.vcxproj -> C:\Users\Pad\Documents\GitHub\DirectX11-Showcase\DX11Showcase\x64\Debug\DX11Showcase.exe
+﻿
